@@ -1,0 +1,29 @@
+body {
+  font-family: 'Quattrocento', serif;
+}
+
+#addCarBrand {
+  text-align: center;
+}
+
+
+.truncated { 
+  display:block; 
+  max-width:200px; 
+  overflow:hidden; 
+  text-overflow:ellipsis; 
+  white-space:nowrap; 
+}
+
+label {
+  font-size: 14px;
+}
+
+.gifnew {
+  max-height: 100px;
+}
+
+#delete {
+  max-height: 30px;
+  display: none;
+}

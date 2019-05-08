@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="container mt-3 border rounded">
+    <div class="row mt-3 text-info">
+      <div class="col-8 col-md-12 text-center">
+        <h1 bg-danger><i class="fas fa-car"></i> Get Your Car Brand Gif</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-8 col-lg-9 ">
+        <div id='cars-viewbtn' class="bg-light"></div>
+      </div>
+      <div id=gifSearch class="col-8 col-lg-3 text-center bg-light py-3">
+        <form id="cars-form">
+          <label for="cars-input" id='addCarBrand'><h5>Add a Car Brand<i class="fab fa-angellist"></i></h5></i></label>
+          <br>
+          <input  type="text" id="cars-input"><input id="add-car" type="submit" class='px-1 mb-1 bg-white rounded text-center' value="Go, Yo!" >
+          <br>
+          <!-- Button triggers new car to be added -->
+        </form>
+      </div>
+    </div>
+    <div  class="row m-3">
+      <h2 id='favorites'> Favs Gifs =>>>  </h2>
+      <button id='delete' type="button" class="btn btn-light m-3"> <i class="fas fa-trash-alt"></i></button>
+    </div>
+    <div id='cars-view' class="row justify-content-center mt-3">
+     
+    </div>
+
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!-- <script type="text/javascript" src="app.js"></script> -->
+  <script type="text/javascript" src="appFav.js"></script>
+</body>
+
+</html>
